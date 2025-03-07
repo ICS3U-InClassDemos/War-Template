@@ -51,7 +51,7 @@
             this.warButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.warButton.ForeColor = System.Drawing.Color.White;
             this.warButton.Location = new System.Drawing.Point(138, 124);
-            this.warButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.warButton.Margin = new System.Windows.Forms.Padding(2);
             this.warButton.Name = "warButton";
             this.warButton.Size = new System.Drawing.Size(59, 45);
             this.warButton.TabIndex = 0;
@@ -226,7 +226,7 @@
             this.Controls.Add(this.warButton);
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "War";
